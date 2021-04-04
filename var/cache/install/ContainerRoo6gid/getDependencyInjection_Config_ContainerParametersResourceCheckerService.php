@@ -6,6 +6,6 @@ use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 // Returns the private 'dependency_injection.config.container_parameters_resource_checker' shared service.
 
 include_once $this->targetDirs[3].'/vendor/symfony/config/ResourceCheckerInterface.php';
-include_once $this->targetDirs[3].'/vendor/symfony/dependency-injection/Config/ContainerParametersResourceChecker.php';
+include_once $this->targetDirs[3].'/vendor/symfony/dependency-injection/StockShowConfig/ContainerParametersResourceChecker.php';
 
 return $this->services['dependency_injection.config.container_parameters_resource_checker'] = new \Symfony\Component\DependencyInjection\Config\ContainerParametersResourceChecker($this);

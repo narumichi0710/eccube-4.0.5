@@ -147,7 +147,7 @@ class ShippingMultipleController extends AbstractShoppingController
                 'allow_add' => true,
                 'allow_delete' => true,
             ]);
-        // Event
+        // StockShowEvent
         $event = new EventArgs(
             [
                 'builder' => $builder,

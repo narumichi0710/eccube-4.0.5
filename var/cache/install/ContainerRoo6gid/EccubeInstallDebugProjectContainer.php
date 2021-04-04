@@ -1828,7 +1828,7 @@ class EccubeInstallDebugProjectContainer extends Container
             include_once $this->targetDirs[3].'/vendor/symfony/http-foundation/RequestStack.php';
             include_once $this->targetDirs[3].'/vendor/symfony/config/FileLocatorInterface.php';
             include_once $this->targetDirs[3].'/vendor/symfony/config/FileLocator.php';
-            include_once $this->targetDirs[3].'/vendor/symfony/http-kernel/Config/FileLocator.php';
+            include_once $this->targetDirs[3].'/vendor/symfony/http-kernel/StockShowConfig/FileLocator.php';
             include_once $this->targetDirs[3].'/vendor/symfony/http-kernel/UriSigner.php';
             include_once $this->targetDirs[3].'/vendor/symfony/config/ConfigCacheFactoryInterface.php';
             include_once $this->targetDirs[3].'/vendor/symfony/config/ResourceCheckerConfigCacheFactory.php';

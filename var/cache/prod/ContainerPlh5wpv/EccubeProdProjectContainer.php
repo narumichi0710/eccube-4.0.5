@@ -1825,7 +1825,7 @@ class EccubeProdProjectContainer extends Container
             include_once $this->targetDirs[3].'/vendor/symfony/http-foundation/RequestStack.php';
             include_once $this->targetDirs[3].'/vendor/symfony/config/FileLocatorInterface.php';
             include_once $this->targetDirs[3].'/vendor/symfony/config/FileLocator.php';
-            include_once $this->targetDirs[3].'/vendor/symfony/http-kernel/Config/FileLocator.php';
+            include_once $this->targetDirs[3].'/vendor/symfony/http-kernel/StockShowConfig/FileLocator.php';
             include_once $this->targetDirs[3].'/vendor/symfony/http-kernel/UriSigner.php';
             include_once $this->targetDirs[3].'/vendor/symfony/config/ConfigCacheFactoryInterface.php';
             include_once $this->targetDirs[3].'/vendor/symfony/config/ResourceCheckerConfigCacheFactory.php';
@@ -3149,7 +3149,7 @@ class EccubeProdProjectContainer extends Container
     /*
      * Gets the private 'config_cache_factory' shared service.
      *
-     * @return \Symfony\Component\Config\ResourceCheckerConfigCacheFactory
+     * @return \Symfony\Component\StockShowConfig\ResourceCheckerConfigCacheFactory
      */
     protected function getConfigCacheFactoryService()
     {
@@ -3303,7 +3303,7 @@ class EccubeProdProjectContainer extends Container
     /*
      * Gets the private 'file_locator' shared service.
      *
-     * @return \Symfony\Component\HttpKernel\Config\FileLocator
+     * @return \Symfony\Component\HttpKernel\StockShowConfig\FileLocator
      */
     protected function getFileLocatorService()
     {

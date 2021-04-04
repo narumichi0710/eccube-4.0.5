@@ -111,7 +111,7 @@ class OrderStateMachine implements EventSubscriberInterface
     }
 
     /*
-     * Event handlers.
+     * StockShowEvent handlers.
      */
 
     /**

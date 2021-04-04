@@ -346,7 +346,7 @@ class ComposerApiService implements ComposerServiceInterface
         $composerMemory = $this->eccubeConfig['eccube_composer_memory_limit'];
         ini_set('memory_limit', $composerMemory);
 
-        // Config for some environment
+        // StockShowConfig for some environment
         putenv('COMPOSER_HOME='.$this->eccubeConfig['plugin_realdir'].'/.composer');
         $this->initConsole();
         $this->workingDir = $this->workingDir ? $this->workingDir : $this->eccubeConfig['kernel.project_dir'];

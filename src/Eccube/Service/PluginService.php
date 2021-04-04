@@ -748,7 +748,7 @@ class PluginService
      * Update plugin
      *
      * @param Plugin $plugin
-     * @param array  $meta     Config data
+     * @param array  $meta     StockShowConfig data
      *
      * @throws \Exception
      */
